@@ -44,6 +44,13 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 22 | [Flyweight](docs/22-flyweight.md) | Structural | Shared bounding-box class metadata | ✅ |
 | 23 | [Interpreter](docs/23-interpreter.md) | Behavioral | Alert rule DSL | ✅ |
 
+## After the patterns
+
+- [90 — Confusable pairs](docs/90-confusable-pairs.md): Strategy vs State, Adapter vs Facade vs Proxy, and others
+- [91 — Cheat sheet](docs/91-cheat-sheet.md): what varies → pattern → C++ form
+- [92 — Anti-patterns](docs/92-anti-patterns.md): Singleton as a global, speculative generality, dangling observers, and others
+- [Capstone — mini-gateway](capstone/mini-gateway/README.md): six patterns in one program, plus four places where a pattern was deliberately not used
+
 ## By GoF family
 
 - **Creational:** Factory Method (06), Abstract Factory (14), Builder (07), Prototype (21), Singleton (15)
