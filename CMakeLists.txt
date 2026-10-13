@@ -36,3 +36,11 @@ foreach(dir ${example_dirs})
     add_test(NAME ${chapter}/${name} COMMAND ${target})
   endforeach()
 endforeach()
+
+# Capstone: one program built from several patterns.
+add_executable(mini-gateway capstone/mini-gateway/main.cpp)
+target_include_directories(mini-gateway PRIVATE ${CMAKE_SOURCE_DIR}/common)
+target_compile_options(mini-gateway PRIVATE -Wall -Wextra -Wpedantic -Werror)
+set_target_properties(mini-gateway PROPERTIES
+  RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/capstone)
+add_test(NAME capstone/mini-gateway COMMAND mini-gateway)
