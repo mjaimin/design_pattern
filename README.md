@@ -21,7 +21,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 |---|---|---|---|---|
 | 00 | [Foundations](docs/00-foundations.md) | — | One camera, four kinds of polymorphism; dependency inversion | ✅ |
 | 01 | [Strategy](docs/01-strategy.md) | Behavioral | Recording policy: continuous / scheduled / motion | ✅ |
-| 02 | Observer | Behavioral | Detection event fan-out | ☐ |
+| 02 | [Observer](docs/02-observer.md) | Behavioral | Detection event fan-out | ✅ |
 | 03 | Adapter | Structural | Vendor camera APIs → one interface | ☐ |
 | 04 | Facade | Structural | `recorder.start()` over the media stack | ☐ |
 | 05 | Decorator | Structural | Event sink + retry / rate-limit / metrics | ☐ |
