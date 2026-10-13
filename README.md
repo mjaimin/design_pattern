@@ -30,7 +30,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 08 | [Command](docs/08-command.md) | Behavioral | Relay / PTZ actions: queue, log, undo | ✅ |
 | 09 | [Template Method](docs/09-template-method.md) | Behavioral | Camera onboarding skeleton | ✅ |
 | 10 | [State](docs/10-state.md) | Behavioral | Camera connection lifecycle | ✅ |
-| 11 | Composite | Structural | Site → zone → device tree | ☐ |
+| 11 | [Composite](docs/11-composite.md) | Structural | Site → zone → device tree | ✅ |
 | 12 | Proxy | Structural | Lazy / caching / guarded camera | ☐ |
 | 13 | Chain of Responsibility | Behavioral | Event filter chain | ☐ |
 | 14 | [Abstract Factory](docs/14-abstract-factory.md) | Creational | ARM appliance vs x86 VM platform family | ✅ |
