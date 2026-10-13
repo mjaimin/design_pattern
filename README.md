@@ -40,7 +40,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 18 | [Mediator](docs/18-mediator.md) | Behavioral | Alarm controller | ✅ |
 | 19 | [Memento](docs/19-memento.md) | Behavioral | Config snapshot & rollback | ✅ |
 | 20 | [Visitor](docs/20-visitor.md) | Behavioral | Operations over the device tree; `std::visit` | ✅ |
-| 21 | Prototype | Creational | Clone a camera template | ☐ |
+| 21 | [Prototype](docs/21-prototype.md) | Creational | Clone a camera template | ✅ |
 | 22 | [Flyweight](docs/22-flyweight.md) | Structural | Shared bounding-box class metadata | ✅ |
 | 23 | [Interpreter](docs/23-interpreter.md) | Behavioral | Alert rule DSL | ✅ |
 
