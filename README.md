@@ -27,7 +27,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 05 | [Decorator](docs/05-decorator.md) | Structural | Event sink + retry / rate-limit / metrics | ✅ |
 | 06 | [Factory Method](docs/06-factory-method.md) | Creational | Recorder picks its segment writer | ✅ |
 | 07 | [Builder](docs/07-builder.md) | Creational | Media pipeline assembly | ✅ |
-| 08 | Command | Behavioral | Relay / PTZ actions: queue, log, undo | ☐ |
+| 08 | [Command](docs/08-command.md) | Behavioral | Relay / PTZ actions: queue, log, undo | ✅ |
 | 09 | Template Method | Behavioral | Camera onboarding skeleton | ☐ |
 | 10 | State | Behavioral | Camera connection lifecycle | ☐ |
 | 11 | Composite | Structural | Site → zone → device tree | ☐ |
