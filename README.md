@@ -41,7 +41,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 19 | Memento | Behavioral | Config snapshot & rollback | ☐ |
 | 20 | Visitor | Behavioral | Operations over the device tree; `std::visit` | ☐ |
 | 21 | Prototype | Creational | Clone a camera template | ☐ |
-| 22 | Flyweight | Structural | Shared bounding-box class metadata | ☐ |
+| 22 | [Flyweight](docs/22-flyweight.md) | Structural | Shared bounding-box class metadata | ✅ |
 | 23 | Interpreter | Behavioral | Alert rule DSL | ☐ |
 
 ## By GoF family
