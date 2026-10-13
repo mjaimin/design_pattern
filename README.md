@@ -32,7 +32,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 10 | [State](docs/10-state.md) | Behavioral | Camera connection lifecycle | ✅ |
 | 11 | [Composite](docs/11-composite.md) | Structural | Site → zone → device tree | ✅ |
 | 12 | [Proxy](docs/12-proxy.md) | Structural | Lazy / caching / guarded camera | ✅ |
-| 13 | Chain of Responsibility | Behavioral | Event filter chain | ☐ |
+| 13 | [Chain of Responsibility](docs/13-chain-of-responsibility.md) | Behavioral | Event filter chain | ✅ |
 | 14 | [Abstract Factory](docs/14-abstract-factory.md) | Creational | ARM appliance vs x86 VM platform family | ✅ |
 | 15 | [Singleton](docs/15-singleton.md) | Creational | Logger, then dependency injection | ✅ |
 | 16 | [Iterator](docs/16-iterator.md) | Behavioral | Recorded segments as a C++20 range | ✅ |
