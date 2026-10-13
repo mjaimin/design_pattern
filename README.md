@@ -28,7 +28,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 06 | [Factory Method](docs/06-factory-method.md) | Creational | Recorder picks its segment writer | ✅ |
 | 07 | [Builder](docs/07-builder.md) | Creational | Media pipeline assembly | ✅ |
 | 08 | [Command](docs/08-command.md) | Behavioral | Relay / PTZ actions: queue, log, undo | ✅ |
-| 09 | Template Method | Behavioral | Camera onboarding skeleton | ☐ |
+| 09 | [Template Method](docs/09-template-method.md) | Behavioral | Camera onboarding skeleton | ✅ |
 | 10 | State | Behavioral | Camera connection lifecycle | ☐ |
 | 11 | Composite | Structural | Site → zone → device tree | ☐ |
 | 12 | Proxy | Structural | Lazy / caching / guarded camera | ☐ |
