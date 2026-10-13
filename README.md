@@ -37,7 +37,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 15 | [Singleton](docs/15-singleton.md) | Creational | Logger, then dependency injection | ✅ |
 | 16 | [Iterator](docs/16-iterator.md) | Behavioral | Recorded segments as a C++20 range | ✅ |
 | 17 | [Bridge](docs/17-bridge.md) | Structural | Alert kind × transport | ✅ |
-| 18 | Mediator | Behavioral | Alarm controller | ☐ |
+| 18 | [Mediator](docs/18-mediator.md) | Behavioral | Alarm controller | ✅ |
 | 19 | Memento | Behavioral | Config snapshot & rollback | ☐ |
 | 20 | Visitor | Behavioral | Operations over the device tree; `std::visit` | ☐ |
 | 21 | Prototype | Creational | Clone a camera template | ☐ |
