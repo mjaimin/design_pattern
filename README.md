@@ -34,7 +34,7 @@ Requires a C++20 compiler (tested with g++ 13) and CMake ≥ 3.20.
 | 12 | Proxy | Structural | Lazy / caching / guarded camera | ☐ |
 | 13 | Chain of Responsibility | Behavioral | Event filter chain | ☐ |
 | 14 | [Abstract Factory](docs/14-abstract-factory.md) | Creational | ARM appliance vs x86 VM platform family | ✅ |
-| 15 | Singleton | Creational | Logger, then dependency injection | ☐ |
+| 15 | [Singleton](docs/15-singleton.md) | Creational | Logger, then dependency injection | ✅ |
 | 16 | Iterator | Behavioral | Recorded segments as a C++20 range | ☐ |
 | 17 | Bridge | Structural | Alert kind × transport | ☐ |
 | 18 | Mediator | Behavioral | Alarm controller | ☐ |
